@@ -27,3 +27,7 @@ body {
   border-radius: 20px;
   padding: 40px 30px;
 }
+
+.result-display {
+  color: white;
+}
