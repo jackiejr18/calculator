@@ -30,4 +30,10 @@ body {
 
 .result-display {
   color: white;
+  background-color: #13181d25;
+  height: 40px;
+  padding: 20px;
+  text-align: right;
+  border-radius: 10px;
+  overflow: hidden;
 }
