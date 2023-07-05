@@ -108,3 +108,7 @@ body {
   background-color: #008080;
   color: #243441;
 }
+
+.btn-lg:hover{
+  background-color: #004c4c;
+}
