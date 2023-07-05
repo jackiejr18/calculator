@@ -37,3 +37,23 @@ body {
   border-radius: 10px;
   overflow: hidden;
 }
+
+.calc-display h3,
+.result-display h1 {
+  margin: 0;
+  font-weight: 300;
+}
+
+.calc-display{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    background-color: #13181d25;
+    color: white;
+    height: 50px;
+    padding: 0 15px;
+    text-align: right;
+    margin-top: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+}
