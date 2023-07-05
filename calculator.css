@@ -86,5 +86,9 @@ body {
   background-color: #212b33;
 }
 
+.btn:active {
+  background-color: #13181d;
+  box-shadow: none;
+}
 
 
