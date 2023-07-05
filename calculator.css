@@ -12,6 +12,14 @@ body {
   font-family: 'Early Gameboy';
 }
 
+.wrapper {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #FFB178;
+}
+
 .container {
   height: 100vh;
   display: flex;
