@@ -17,7 +17,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #FFB178;
+  background-color: #008080;
 }
 
 .container {
@@ -99,7 +99,7 @@ body {
   box-shadow: none;
 }
 
-.btn-orange{
-  color: #ED802E;
+.btn-teal {
+  color: #008080;
 }
 
