@@ -6,3 +6,9 @@ function display(num) {
 	calcDisplay.innerText += num;
 }
 
+// creates all clear function that deletes calculations and sets result to 0
+function allClear() {
+	calcDisplay.innerHTML = "";
+	resultDisplay.innerHTML = "0";
+}
+
