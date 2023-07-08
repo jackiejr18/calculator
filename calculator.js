@@ -12,3 +12,12 @@ function allClear() {
 	resultDisplay.innerHTML = "0";
 }
 
+// creates function that deletes one character from display
+function del() {
+	calcDisplay.innerText = calcDisplay.innerText.slice(0,-1);
+}
+
+//creates function that evaluates calc display and shows in results
+function calculate() {
+	resultDisplay.innerText = eval(calcDisplay.innerText);
+}
