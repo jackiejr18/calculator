@@ -1,0 +1,114 @@
+@font-face {
+	font-family: 'Early Gameboy';
+  src: url(Early GameBoy.ttf) format('truetype'); 
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Early Gameboy';
+}
+
+.wrapper {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #008080;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #FFB178;
+}
+
+.calc-body {
+  width: 250px;
+  background-color: #243441;
+  backdrop-filter: blur (10px);
+  border-radius: 20px;
+  padding: 40px 30px;
+}
+
+.result-display {
+  color: white;
+  background-color: #13181d25;
+  height: 40px;
+  padding: 20px;
+  text-align: right;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.calc-display h3,
+.result-display h1 {
+  margin: 0;
+  font-weight: 300;
+}
+
+.calc-display {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  background-color: #13181d25;
+  color: white;
+  height: 50px;
+  padding: 0 15px;
+  text-align: right;
+  margin-top: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.btn-wrap {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.btn {
+  padding: 10px;
+  height: 55px;
+  width: 55px;
+  font-size: medium;
+  color: rgb(191, 191, 191);
+  background-color: #243441;
+  border: none;
+  outline: none;
+  margin-top: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+  transition: all 0.1s ease 0s;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #212b33;
+}
+
+.btn:active {
+  background-color: #13181d;
+  box-shadow: none;
+}
+
+.btn-teal {
+  color: #008080;
+}
+
+.btn-lg {
+  width: 120px;
+  background-color: #008080;
+  color: #243441;
+}
+
+.btn-lg:hover{
+  background-color: #004c4c;
+}
